@@ -1,2 +1,33 @@
-package org.java_library1;public class Book {
+package org.java_library1;
+
+public class Book {
+    private String title;
+    private String author;
+    private String isbn;
+    private int year;
+
+    public Book(String title, String author, String isbn, int year) {
+        this.title = title;
+        this.author = author;
+        this.isbn = isbn;
+        this.year = year;
+    }
+
+    // Getters and setters for book properties
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public int getYear() {
+        return year;
+    }
 }
